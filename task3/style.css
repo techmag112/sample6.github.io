@@ -1,0 +1,26 @@
+#trafficLight {
+    display: flex;
+    flex-direction: column;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.Black {
+    background: black;
+}
+
+.Green {
+    background: green;
+}
+
+.Yellow {
+    background: yellow;
+}
+
+.Red {
+    background: red;
+}
