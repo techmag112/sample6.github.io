@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>JS-Start. 5 задача</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-    <form action="#">
-        <label>
-            Текст
-            <input data-label type="text" placeholder="Введите текст">
-        </label>
-        <button data-btn type="submit">
-            Вывести текст в консоль и удалить из формы
-        </button>
-    </form>
-    <hr>
-    <p>Введенный текст:</p>
-    <p id="duplicateField"></p>
-
-    <br><br><a href="../index.html">На главную страницу</a>
+    <div id="container">
+        <div id="main">
+            <form class="form" action="#">
+                <label>
+                    <span>Введите любой текст</span>
+                    <input data-label type="text" placeholder="Введите текст">
+                </label>
+                <button class="btn" type="submit">
+                    Вывести текст в консоль и удалить из формы
+                </button>
+            </form>
+        </div>
+        <div id="outtext">
+            <p>Введенный текст:</p>
+            <p id="duplicateField"></p>
+        </div>
+        <div id="footer">
+            <br><br><a href="../index.html">На главную страницу</a>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
+
+

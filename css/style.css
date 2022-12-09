@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    margin: auto;
+}
+
+.h2 {
+    text-align: center;
+}
+
+#trafficLight {
+    align-items: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.Black {
+    background: black;
+}
+
+.Green {
+    background: green;
+}
+
+.Yellow {
+    background: yellow;
+}
+
+.Red {
+    background: red;
+}
+
+#duplicateField {
+    font-weight: bold;
+}
+
+#outtext {
+    flex-flow: column wrap;
+    text-align: center;
+    min-height: 200px;
+}
+
+.btn {
+    height: 65px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s all;
+    outline: none;
+}
+
+.btn:hover {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+  }
+
+code {
+    padding: 10px;
+    border:rgba(0, 0, 0, 0.3);
+    border-style: solid; 
+    font-weight: bold;
+}
+
+#consoleLog:hover, #alert:hover, #prompt:hover, #text:hover  {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
